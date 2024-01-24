@@ -3,7 +3,7 @@
 /**
 * uPNG -- derived from LodePNG version 20100808
 *
-* Copyright (c) 2005-2010 Lode Vandevenne
+* Copyright (c) 2005-2010 Lode Vandevenne 
 * Copyright (c) 2010 Sean Middleditch
 *
 * This software is provided 'as-is', without any express or implied

@@ -67,7 +67,7 @@ int getMapValue(int row, int col);
  * @y: y coordinate
  * @width: player width
  * @height: player height
- * @turnDirection: Turn Direction
+ * @turnDirection: Turn Direction 
  * @walkDirection: Walk Direction
  * @rotationAngle: player rotation angle
  * @walkSpeed: walk speed
@@ -131,7 +131,7 @@ void vertIntersection(float rayAngle);
 
 /**
  * struct texture_s - struct for the textures
- * @width: texture width
+ * @width: texture width 
  * @height: texture height
  * @texture_buffer: pointer to texture buffer
  * @upngTexture: pointer to upng buffer
