@@ -1,37 +1,30 @@
-# 3D Maze Game
+# The Maze
 
-3D Maze Game is a simple maze game implemented using raycasting technique. It is written in C and utilizes the ncurses library for terminal-based rendering.
+The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!
 
-## Getting Started
+The Maze was written was written in C ussing SDL2 library. Deveploment was performed using Ubuntu 14.04 LTS - gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
 
-### Prerequisites
+### About SDL2 
 
-To compile and run the game, you need to have the following software installed on your system:
+Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games.
 
-- C compiler (e.g., GCC)
-- ncurses library
+## Instalation 
+```sh
+$ git clone https://github.com/Sulaiman-Tahir-Idris/alx-maze_project.git
+```
+## Usage 
+* Execute ./maze or type make run 
+* Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
+* Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
 
-### Installation
+## Compilation
+```sh
+$ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
+```
 
-1. Clone or download the repository.
-2. Make sure you have the ncurses library installed on your system.
-   - On Ubuntu, you can install it by running: `sudo apt-get install libncurses-dev`
-   - On macOS, you can install it using Homebrew: `brew install ncurses`
-   - For other operating systems, please refer to the documentation specific to your system.
-3. Compile the source code by executing the following command: `gcc -std=c99 -o game main.c game.c map.c rendering.c input.c utils.c -lncurses`
-
-### Running the Game
-
-1. After successful compilation, run the game by executing the following command: `./game`
-2. The game should start, and you will be presented with a 3D maze.
-3. Use the arrow keys to navigate through the maze and try to reach the goal.
-4. Press 'Q' to quit the game.
-
-## Contributing
-
-Contributions to improve the game are welcome! If you have any suggestions, bug fixes, or feature enhancements, feel free to submit a pull request or open an issue.
-
-## Acknowledgements
-
-This project was inspired by the classic maze games and utilizes the raycasting technique made popular by early 3D games.
+## Flowchart
+![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
+ 
+## Author
+* Sulaiman Tahir Idris (https://github.com/Sulaiman-Tahir-Idris)
 
